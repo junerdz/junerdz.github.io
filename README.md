@@ -1,2 +1,1 @@
-# junerdz.github.io
-Resume
+# Personal Portfolio
