@@ -151,7 +151,8 @@ body{
     right: 300px;
     font-size: 40px;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 35px, 35px, 35px;
+    grid-auto-flow: column;
     gap: 2px;
     align-items: center;
 
