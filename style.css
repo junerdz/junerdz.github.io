@@ -55,7 +55,7 @@ body{
 
 .hamburger-menu input{
     appearance: none;
-    padding: 0;
+    padding: 2px;
     margin: 0;
     outline: none;
     pointer-events: none;
