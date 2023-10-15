@@ -118,6 +118,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     
 
     height: 80px;
@@ -213,6 +214,7 @@ Contact Form
 .contact_form .contact_desc{
     color: white;   
     padding: 35px;
+    padding-top: 190px;
     padding-bottom: 70px;
 
 }
@@ -302,7 +304,7 @@ About Me
     font-family: "consolas", sans-serif;
     font-size: 50px;
 
-    padding-top: 20px;
+    padding-top: 120px;
     padding-bottom: 20px;
 }
 
