@@ -145,9 +145,10 @@ body{
 .social_icon{
     background-color: transparent;
     position: relative;
-    width: 120px;
-    top:  0px;
-    right: 200px;
+    width: 35px;
+    height: 35px;
+    bottom: 15px;
+    right: 300px;
     font-size: 40px;
     display: grid;
     grid-template-columns: repeat(3, auto);
