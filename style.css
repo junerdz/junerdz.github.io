@@ -293,6 +293,7 @@ form{
 
 .input-group input, textarea{
     color: white;
+    font-family: "consolas", sans-serif;
 }
 
 
@@ -345,6 +346,7 @@ About Me Image Slider
 }
 
 .container .slider-wrapper .slider img{
+
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
