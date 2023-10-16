@@ -159,6 +159,8 @@ body{
     gap: 2px;
     align-items: center;
 
+    margin-bottom: 0;
+
     transition: transform var(--animation-timing);
 }
 
