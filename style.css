@@ -210,6 +210,8 @@ Homepage
     position: relative;
 
     padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     left: 25%;
 } 
 
@@ -229,8 +231,10 @@ Homepage
     color: white;
     font-size: 20px;
 
-    text-align: center;
-    width: auto;
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /*
