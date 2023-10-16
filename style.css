@@ -19,6 +19,11 @@ body{
     margin: 0;
 }
 
+
+/*
+Hamburger Menu and Sidebar
+*/
+
 :root{
     --bar-width: 27px;
     --bar-height: 3px;
@@ -409,4 +414,16 @@ About Me Image Slider
 
 .container .slider-wrapper .slider-nav a:hover{
     opacity: 1;
+}
+
+
+/*
+Some @media tags for CSS to change in mobile
+*/
+@media (max-width: 1000px){
+    .social_icon{
+        grid-gap: 10px ;
+       
+    }
+
 }
