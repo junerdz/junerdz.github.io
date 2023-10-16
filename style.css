@@ -143,6 +143,8 @@ body{
     z-index: 998;
 }
 
+
+
 .header a {
     padding: 1rem;
     left: 90px;
@@ -181,24 +183,36 @@ body{
 Homepage
 */
 
-.intro{
+/* .intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     height: 300px;
 
-}
+    position: relative;
+    padding-top: 80px;
+    left: 50%;
+    top: 50%;
+
+} */
 
 .intro h2{
     color: white;
-
-    margin: left;
-    margin-bottom: 20px;
-
-    font-size: 35px;
-
     text-align: center;
+
+    font-family: "consolas", sans-serif;
+    font-size: 50px;
+
+    padding-top: 120px;
+    padding-bottom: 20px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    z-index: -1;
 }
 
 .intro p{
@@ -206,6 +220,7 @@ Homepage
     font-size: 20px;
 
     text-align: center;
+    width: auto;
 }
 
 /*
