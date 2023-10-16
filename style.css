@@ -183,7 +183,7 @@ body{
 Homepage
 */
 
-/* .intro{
+.intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,27 +192,19 @@ Homepage
 
     position: relative;
     padding-top: 80px;
-    left: 50%;
-    top: 50%;
-
-} */
+    left: 25%;
+} 
 
 .intro h2{
     color: white;
     text-align: center;
+    padding-bottom: 20px;
 
     font-family: "consolas", sans-serif;
     font-size: 50px;
 
-    padding-top: 120px;
-    padding-bottom: 20px;
-
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-    z-index: -1;
+ 
+    z-index: 0;
 }
 
 .intro p{
