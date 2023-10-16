@@ -178,8 +178,6 @@ Homepage
     width: 50%;
     height: 300px;
 
-
-    
 }
 
 .intro h2{
@@ -309,6 +307,8 @@ About Me
 
     padding-top: 120px;
     padding-bottom: 20px;
+
+    z-index: -1;
 }
 
 .about p{
@@ -316,6 +316,8 @@ About Me
     text-align: center;
 
     padding-bottom: 20px;
+
+    z-index: -1;
 }
 
 /*
@@ -346,7 +348,6 @@ About Me Image Slider
 }
 
 .container .slider-wrapper .slider img{
-
     flex: 1 0 100%;
     width: 100%;
     max-width: 100%;
