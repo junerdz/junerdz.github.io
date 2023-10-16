@@ -152,7 +152,7 @@ body{
     top: 0px;
     font-weight: bold;
     font-size: 35px;
-    width: 100%;
+    width: 135px;
 }
 
 .social_icon{
@@ -160,21 +160,29 @@ body{
     position: relative;
     width: 35px;
     height: 35px;
-    bottom: 15px;
+    bottom: 0px;
+    top: -15px;
     right: 300px;
     font-size: 40px;
     display: grid;
-    grid-template-columns: 35px, 35px, 35px;
-    grid-auto-flow: column;
+    grid-template-columns: 50px, 50px, 50px;
+    grid-auto-flow: column dense;
     gap: 2px;
     align-items: center;
 
     margin-bottom: 0;
 
+}
+
+.social_icon a{
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+
     transition: transform var(--animation-timing);
 }
 
-.social_icon:hover{
+.social_icon a:hover{
     color: grey;
 
 }
