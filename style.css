@@ -426,4 +426,10 @@ Some @media tags for CSS to change in mobile
        
     }
 
+    .header a {
+        
+        left: 70px;
+        
+    }
+
 }
