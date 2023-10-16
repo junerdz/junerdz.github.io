@@ -346,6 +346,8 @@ About Me Image Slider
 
 .container .slider-wrapper .slider img{
     flex: 1 0 100%;
+    width: 100%;
+    max-width: 100%;
     scroll-snap-align: start;
     object-fit: cover;
 
