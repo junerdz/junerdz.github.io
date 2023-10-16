@@ -422,10 +422,12 @@ Some @media tags for CSS to change in mobile
 */
 @media (max-width: 1000px){
     .social_icon{
-        grid-gap: 10px ;
+        grid-gap: 12px ;
         /* right: 300px; */
         padding-right: 0px ;
         padding-left: 50px;
+
+        margin-right: -30px;
     }
 
     .header a {
