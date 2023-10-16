@@ -200,14 +200,16 @@ Homepage
 */
 
 .intro{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     height: 300px;
-
+    top: 60px;
     position: relative;
-    padding-top: 80px;
+
+    padding-top: 20px;
     left: 25%;
 } 
 
@@ -379,6 +381,8 @@ About Me Image Slider
 .slider::-webkit-scrollbar{
     display: none;
 }
+
+
 
 .container .slider-wrapper .slider img{
     flex: 1 0 100%;
