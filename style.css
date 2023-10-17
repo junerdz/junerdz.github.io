@@ -429,6 +429,11 @@ About Me Image Slider
 Some @media tags for CSS to change in mobile
 */
 @media (max-width: 1000px){
+    .intro{
+        top: 180px;
+    }
+
+
     .social_icon{
         grid-gap: 12px ;
         /* right: 300px; */
