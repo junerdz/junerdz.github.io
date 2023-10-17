@@ -320,8 +320,17 @@ form{
     color: grey;
 }
 
-.input-group input:focus~label,
-.input-group input:valid~label,
+.input-group input:focus~label
+{
+    top: -40px;
+
+}
+
+.input-group input:valid~label
+{
+    top: -40px;
+}
+
 .input-group textarea:focus~label,
 .input-group textarea:valid~label
 {
