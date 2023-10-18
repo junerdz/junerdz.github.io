@@ -366,6 +366,10 @@ Success Page
 
 }
 
+.success_desc h2{
+    font-size: 44px;
+}
+
 .success_desc p{
     font-family: "consolas", sans-serif;
     font-size: 18px;
