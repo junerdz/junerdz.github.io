@@ -345,7 +345,37 @@ form{
 /*
 Success Page
 */
+.success_box{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.success_desc{
+    color: white;   
+    padding: 35px;
+    padding-top: 190px;
+    padding-bottom: 70px;
+
+    text-align: center;
+    width: 100%;
+
+}
+
+.success_desc p{
+    font-family: "consolas", sans-serif;
+    font-size: 18px;
+}
+
+.success_desc a{
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: underline;
+}
 
 
 /*
