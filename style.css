@@ -537,7 +537,7 @@ About Me Image Slider
 /*
 Some @media tags for CSS to change in mobile
 */
-@media (max-width: 800px){
+@media (max-width: 670px){
     .homepage .intro{
         
         top: 100px;
