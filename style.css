@@ -537,12 +537,12 @@ About Me Image Slider
 /*
 Some @media tags for CSS to change in mobile
 */
-@media (max-width: 1000px){
+@media (max-width: 800px){
     .homepage .intro{
         
         top: 100px;
         width: 380px;
-        left: 9px;
+        left: 5px;
     }
     
 
@@ -567,10 +567,13 @@ Some @media tags for CSS to change in mobile
         position: relative;
         width: fit-content;
         margin-top: 250px;
+
+        left: 0;
     }
 
     .homepage .download_button p{
         text-align: center;
+        
 
     }
 
