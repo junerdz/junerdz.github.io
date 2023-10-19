@@ -212,15 +212,14 @@ Homepage
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
-    height: 100px;
+    width: 50%;
+    height: 400px;
 
     position: relative;
 
-    padding-top: 120px;
     margin-left: 0px;
     margin-right: 0px;
-    left: 20%;
+    left: 25%;
 } 
 
 .homepage .intro h2{
@@ -243,6 +242,7 @@ Homepage
     text-indent: 30px;
     margin-left: 0px;
     margin-right: 0px;
+    
 }
 
 /*
@@ -538,8 +538,13 @@ About Me Image Slider
 Some @media tags for CSS to change in mobile
 */
 @media (max-width: 1000px){
-    .intro{
-        top: 150px;
+    .homepage .intro{
+        
+        top: 100px;
+    }
+    
+    .header .intro p{
+
     }
 
 
@@ -562,7 +567,7 @@ Some @media tags for CSS to change in mobile
         display: inline-block;
         position: relative;
         width: fit-content;
-        margin-top: 420px;
+        margin-top: 250px;
     }
 
     .homepage .download_button p{
