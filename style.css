@@ -157,7 +157,7 @@ Hamburger Menu and Sidebar
     top: 0px;
     font-weight: bold;
     font-size: 35px;
-    width: 135px;
+    width: fit-content;
 }
 
 .social_icon{
@@ -235,6 +235,51 @@ Homepage
     text-indent: 30px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+/*
+Homepage Download
+*/
+.download_button{
+    position: relative;
+    width: fit-content;
+
+
+    
+}
+
+.download_button a button{
+    font-family: "consolas", sans-serif;
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    background-color: white;
+    border-radius: 5px;
+    border-color: grey;
+
+    cursor: pointer;
+    transition: .4s;
+}
+
+.download_button a button:hover{
+    background-color: black;
+    color: white;
+    border-color: lightblue;
+}
+
+.download_button a button ion-icon{
+    background-color: transparent;
+    position: relative;
+    font-size: 28px;
+    font-weight: bolder;
+    top: 3px;
+
+
 }
 
 /*
