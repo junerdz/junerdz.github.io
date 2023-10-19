@@ -542,7 +542,7 @@ Some @media tags for CSS to change in mobile
         
         top: 50px;
         width: 380px;
-        left: 3px;
+        left: 2px;
     }
     
 
@@ -568,7 +568,7 @@ Some @media tags for CSS to change in mobile
         width: fit-content;
         margin-top: 170px;
 
-        left: 0;
+        left: -2px;
     }
 
     .homepage .download_button p{
