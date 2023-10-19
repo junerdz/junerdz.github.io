@@ -541,11 +541,10 @@ Some @media tags for CSS to change in mobile
     .homepage .intro{
         
         top: 100px;
+        width: 450px;
+        left: 10px;
     }
     
-    .header .intro p{
-
-    }
 
 
     .social_icon{
