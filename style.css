@@ -557,4 +557,15 @@ Some @media tags for CSS to change in mobile
         
     }
 
+    .homepage .download_button{
+        display: inline-block;
+        position: relative;
+        width: fit-content;
+        margin-top: 400px;
+    }
+
+    .homepage .download_button p{
+        text-align: center;
+    }
+
 }
