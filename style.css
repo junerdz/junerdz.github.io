@@ -198,24 +198,32 @@ Hamburger Menu and Sidebar
 /*
 Homepage
 */
+.homepage{
+    position: relative;
+    top: 80px;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+}
 
-.intro{
+
+.homepage .intro{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    height: 300px;
-    top: 60px;
+    width: 60%;
+    height: 100px;
+
     position: relative;
 
-    padding-top: 20px;
+    padding-top: 120px;
     margin-left: 0px;
     margin-right: 0px;
-    left: 25%;
+    left: 20%;
 } 
 
-.intro h2{
+.homepage .intro h2{
     color: white;
     text-align: center;
     padding-bottom: 20px;
@@ -227,7 +235,7 @@ Homepage
     z-index: 0;
 }
 
-.intro p{
+.homepage .intro p{
     color: white;
     font-size: 20px;
 
@@ -240,15 +248,21 @@ Homepage
 /*
 Homepage Download
 */
-.download_button{
+.homepage .download_button{
+    display: inline-block;
     position: relative;
     width: fit-content;
-
-
-    
+    margin-top: 180px;
 }
 
-.download_button a button{
+.homepage .download_button p{
+    color: white;
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.homepage .download_button a button{
     font-family: "consolas", sans-serif;
     font-size: 28px;
     font-weight: 550;
@@ -267,13 +281,13 @@ Homepage Download
     transition: .4s;
 }
 
-.download_button a button:hover{
+.homepage .download_button a button:hover{
     background-color: black;
     color: white;
     border-color: lightblue;
 }
 
-.download_button a button ion-icon{
+.homepage .download_button a button ion-icon{
     background-color: transparent;
     position: relative;
     font-size: 28px;
@@ -524,7 +538,7 @@ Some @media tags for CSS to change in mobile
 */
 @media (max-width: 1000px){
     .intro{
-        top: 180px;
+        top: 150px;
     }
 
 
