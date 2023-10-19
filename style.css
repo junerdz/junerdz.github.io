@@ -214,7 +214,7 @@ Homepage
     justify-content: center;
     width: 50%;
     height: 400px;
-
+    bottom: 50px;
     position: relative;
 
     margin-left: 0px;
@@ -226,6 +226,7 @@ Homepage
     color: white;
     text-align: center;
     padding-bottom: 20px;
+    
 
     font-family: "consolas", sans-serif;
     font-size: 50px;
@@ -254,12 +255,13 @@ Homepage Download
     height: fit-content;
     width: fit-content;
     margin-top: 180px;
+    bottom: 250px;
 }
 
 .homepage .download_button p{
     color: white;
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     font-size: 20px;
 }
 
