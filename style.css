@@ -542,7 +542,7 @@ Some @media tags for CSS to change in mobile
         
         top: 100px;
         width: 380px;
-        left: 10px;
+        left: 9px;
     }
     
 
@@ -571,7 +571,7 @@ Some @media tags for CSS to change in mobile
 
     .homepage .download_button p{
         text-align: center;
-        
+
     }
 
 }
