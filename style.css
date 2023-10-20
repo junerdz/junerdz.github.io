@@ -24,6 +24,11 @@ h2{
     font-family: "consolas", sans-serif;
 }
 
+p{
+    color: white;
+    font-family: "consolas", sans-serif;
+}
+
 /*
 Hamburger Menu and Sidebar
 */
@@ -534,6 +539,51 @@ About Me Image Slider
 .container .slider-wrapper .slider-nav a:hover{
     opacity: 1;
 }
+
+
+/* Experience and Projects */
+.xp_con{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+}
+
+.xp1{
+    border: white;
+    border-style: outset;
+    border-width: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    
+    padding-bottom: 20px;
+
+}
+
+.xp_con .xp1 h2{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.xp_con .xp1 h3{
+    color: white;
+    font-weight: 525;
+    padding-bottom: 10px;
+}
+
+.xp_con .xp1 p{
+    text-align: justify;
+}
+
+
+
+
 
 
 /*
