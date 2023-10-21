@@ -554,6 +554,10 @@ About Me Image Slider
     padding: 0px;
 }
 
+.xp_con a:hover{
+    color: grey;
+}
+
 /* Exp Box 1 */
 
 .xp1{
