@@ -554,6 +554,10 @@ About Me Image Slider
     padding: 0px;
 }
 
+.xp_con a{
+    transition: color 0.25s;
+}
+
 .xp_con a:hover{
     color: grey;
 }
