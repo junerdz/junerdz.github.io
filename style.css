@@ -209,65 +209,48 @@ Homepage
 */
 .homepage{
     position: relative;
-    top: 80px;
-    height: fit-content;
-    display: inline-block;
-    text-align: center;
-}
-
-
-.homepage .intro{
-    position: relative;
+    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    height: 400px;
-    bottom: 50px;
-    position: relative;
 
-    margin-left: 0px;
-    margin-right: 0px;
-    left: 25%;
-} 
+    margin: auto;
+    width: 75%;
+    padding: 0px;
+}
+
+.intro{
+    /* grid-column: span 1; */
+    padding-bottom: 20px;
+
+}
 
 .homepage .intro h2{
-
     text-align: center;
-    padding-bottom: 20px;
-    
+    font-weight: bold;
     font-size: 50px;
-
- 
-    z-index: 0;
+    padding-bottom: 10px;
 }
 
 .homepage .intro p{
-    color: white;
-    font-size: 20px;
-
     text-align: justify;
-    text-indent: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-    
+
+    font-size: 18px;
+    padding-bottom: 20px;
 }
+
 
 /*
 Homepage Download
 */
-.homepage .download_button{
-    display: inline-block;
-    position: relative;
-    height: fit-content;
-    width: fit-content;
-    margin-top: 180px;
-    bottom: 250px;
+ .download_button{
+    text-align: center;
 }
 
 .homepage .download_button p{
     color: white;
-    text-align: justify;
+    text-align: center;
+    
     margin-bottom: 18px;
     font-size: 20px;
 }
@@ -654,14 +637,8 @@ About Me Image Slider
 Some @media tags for CSS to change in mobile
 */
 @media (max-width: 670px){
-    .homepage .intro{
-        
-        top: 50px;
-        width: 380px;
-        left: 1px;
-    }
     
-
+    
 
     .social_icon{
         grid-gap: 12px ;
@@ -678,7 +655,7 @@ Some @media tags for CSS to change in mobile
         
     }
 
-    .homepage .download_button{
+    /* .homepage .download_button{
         display: inline-block;
         position: relative;
         width: fit-content;
@@ -691,6 +668,6 @@ Some @media tags for CSS to change in mobile
         text-align: center;
         
 
-    }
+    } */
 
 }
